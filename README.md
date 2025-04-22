@@ -44,6 +44,26 @@ Basic ARIA roles, labels, and landmarks are implemented.
 Passes checks in tools like Lighthouse and axe DevTools.
 ```
 ---
+## 🧠 How I Used AI Tools in This Project
+This project was developed with the support of AI tools, specifically ChatGPT, to accelerate development, improve accessibility, and ensure code quality. Here’s how AI was used throughout the process:
+```
+✍️ Code Assistance
+
+Helped scaffold core components like DoctorList, BookingModal, and MyAppointments in React with Tailwind CSS.
+Assisted in implementing keyboard accessibility and ARIA attributes to ensure usability for all users.
+
+🎨 UI/UX and Accessibility
+
+Improved keyboard navigation (e.g., ensuring modals were focus-trapped and tabbable).
+Provided accessible markup using appropriate role, aria-label, and aria-describedby attributes.
+Guided compliance with tools like Lighthouse and axe DevTools.
+
+🧪 Testing
+
+Helped write unit tests using Jest and React Testing Library, ensuring components rendered properly and behaved correctly (e.g., modals opening/closing, filters working).
+Diagnosed test failures and suggested corrections based on error logs.
+```
+---
 ## ⚠️ Known Limitations / Next Steps
 ```
 Data is not persisted — everything is in-memory only.
